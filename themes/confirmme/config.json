@@ -1,0 +1,9 @@
+{
+  "name": "Confirm Me",
+  "author": "Milex team",
+  "authorUrl": "https://milex.org",
+  "builder": ["grapesjsbuilder"],
+  "features": [
+    "email"
+  ]
+}

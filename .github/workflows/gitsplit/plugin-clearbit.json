@@ -1,0 +1,9 @@
+{
+    "subtree-splits": [
+        {
+            "name": "MilexClearbitBundle",
+            "directory": "plugins/MilexClearbitBundle",
+            "target": "git@github.com:milex/plugin-clearbit.git"
+        }
+    ]
+}

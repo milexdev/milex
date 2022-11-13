@@ -1,0 +1,9 @@
+{
+    "subtree-splits": [
+        {
+            "name": "theme-fresh-wide",
+            "directory": "themes/fresh-wide",
+            "target": "git@github.com:milex/theme-fresh-wide.git"
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+source ./.ddev/milex-setup.sh
+echo "ddev-managed" > ./.ddev/milex-preference
+setup_milex

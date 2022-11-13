@@ -1,0 +1,7 @@
+{
+  "name": "Blank",
+  "author": "Milex team",
+  "authorUrl": "https://milex.org",
+  "builder": ["legacy", "grapesjsbuilder"],
+  "features": ["page", "email", "form"]
+}

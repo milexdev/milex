@@ -1,0 +1,9 @@
+{
+    "subtree-splits": [
+        {
+            "name": "MilexOutlookBundle",
+            "directory": "plugins/MilexOutlookBundle",
+            "target": "git@github.com:milex/plugin-outlook.git"
+        }
+    ]
+}

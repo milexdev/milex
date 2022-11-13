@@ -1,0 +1,46 @@
+{
+    "results": [
+        {
+            "name": "milex\/milex-saelos-bundle",
+            "description": "",
+            "url": "https:\/\/packagist.org\/packages\/milex\/milex-saelos-bundle",
+            "repository": "https:\/\/github.com\/milex\/milex-saelos-bundle",
+            "downloads": 10586,
+            "favers": 11
+        },
+        {
+            "name": "koco\/milex-recaptcha-bundle",
+            "description": "This plugin brings reCAPTCHA integration to milex.",
+            "url": "https:\/\/packagist.org\/packages\/koco\/milex-recaptcha-bundle",
+            "repository": "https:\/\/github.com\/KonstantinCodes\/milex-recaptcha",
+            "downloads": 2012,
+            "favers": 20
+        },
+        {
+            "name": "monogramm\/milex-ldap-auth-bundle",
+            "description": "This plugin enables LDAP authentication for milex.",
+            "url": "https:\/\/packagist.org\/packages\/monogramm\/milex-ldap-auth-bundle",
+            "repository": "https:\/\/github.com\/Monogramm\/MilexLdapAuthBundle",
+            "downloads": 307,
+            "favers": 8
+        },
+        {
+            "name": "maatoo\/milex-referrals-bundle",
+            "description": "This plugin enables referrals in milex.",
+            "url": "https:\/\/packagist.org\/packages\/maatoo\/milex-referrals-bundle",
+            "repository": "https:\/\/github.com\/maatoo-io\/MilexReferralsBundle",
+            "downloads": 527,
+            "favers": 5
+        },
+        {
+            "name": "thedmsgroup\/milex-do-not-contact-extras-bundle",
+            "description": "Adds custom DNC list items to be added to standard Milex DNC lists and creates phpne and sms channels",
+            "url": "https:\/\/packagist.org\/packages\/thedmsgroup\/milex-do-not-contact-extras-bundle",
+            "repository": "https:\/\/github.com\/TheDMSGroup\/milex-dnc-extras",
+            "downloads": 532,
+            "favers": 9
+        }
+    ],
+    "total": 58,
+    "next": "https:\/\/packagist.org\/search.json?page=2\u0026type=milex-plugin"
+}

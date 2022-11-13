@@ -1,0 +1,18 @@
+{
+    "name": "milex/plugin-fullcontact",
+    "description": "Full Contact Plugin",
+    "type": "milex-plugin",
+    "keywords": [
+        "milex",
+        "plugin",
+        "integration"
+    ],
+    "extra": {
+        "install-directory-name": "MilexFullContactBundle"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0 <8.1",
+        "milex/core-lib": "^4.0"
+    }
+}

@@ -1,0 +1,43 @@
+//
+// Logo
+// --------------------------------------------------
+
+// milex-brand
+.milex-brand {
+  display: block;
+  height: @header-height;
+  padding-left: 35px;
+  padding-right: 32px;
+  width: 100%;
+  overflow: hidden;
+
+  &.pull-left {
+    width: 75%;
+  }
+
+  &.minimized {
+    background-size: contain;
+  }
+
+  // milex logo figure
+  > svg.milex-logo-figure {
+    width: @milex-logo-figure-width;
+    height: @header-height;
+    .circle {
+      fill: @milex-logo-figure-circle-fill;
+    }
+    .m,
+    .m-arrow {
+      fill: @milex-logo-figure-m-fill;
+    }
+  }
+
+  // milex logo text
+  > svg.milex-logo-text {
+    height: @header-height;
+    width: @milex-logo-text-width;
+    .m,.a,.u,.t,.i,.c {
+      fill: @milex-logo-text-fill
+    }
+  }
+}

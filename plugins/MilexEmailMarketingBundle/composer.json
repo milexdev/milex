@@ -1,0 +1,18 @@
+{
+    "name": "milex/plugin-emailmarketing",
+    "description": "Email Marketing Plugin",
+    "type": "milex-plugin",
+    "keywords": [
+        "milex",
+        "plugin",
+        "integration"
+    ],
+    "extra": {
+        "install-directory-name": "MilexEmailMarketingBundle"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0 <8.1",
+        "milex/core-lib": "^4.0"
+    }
+}

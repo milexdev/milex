@@ -1,0 +1,16 @@
+{% set milex_content = milexTemplateVars.milexContent is defined ? milexTemplateVars.milexContent : '' %}
+
+<script>
+    var milexBasePath    = '{{ app.request.getBasePath() }}';
+    var milexBaseUrl     = "{{ path('milex_base_index') }}";
+    var milexAjaxUrl     = "{{ path('milex_core_ajax') }}";
+    var milexAjaxCsrf    = '{{ securityGetCsrfToken("milex_ajax_post") }}';
+    var milexImagesPath  = '{{ assetsGetImagesPath() }}';
+    var milexAssetPrefix = '{{ assetsGetPrefix(true) }}';
+    var milexContent     = '{{ milex_content }}';
+    var milexEnv         = '{{ app.environment }}';
+    var milexLang        = {{ translatorGetJsLang()|raw }};
+    var milexLocale      = '{{ app.request.getLocale() }}';
+    var milexEditorFonts = {{ configGetParameter('editor_fonts')|json_encode|raw }};
+</script>
+{{ outputSystemScripts(true) }}

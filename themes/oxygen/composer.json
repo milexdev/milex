@@ -1,0 +1,14 @@
+{
+  "name": "milex/theme-oxygen",
+  "description": "Milex Oxygen Theme",
+  "type": "milex-theme",
+  "keywords": ["milex","theme"],
+  "extra": {
+    "install-directory-name": "oxygen"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4.0 <8.1",
+    "milex/core-lib": "^4.0"
+  }
+}

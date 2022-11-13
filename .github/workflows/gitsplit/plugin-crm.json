@@ -1,0 +1,9 @@
+{
+    "subtree-splits": [
+        {
+            "name": "MilexCrmBundle",
+            "directory": "plugins/MilexCrmBundle",
+            "target": "git@github.com:milex/plugin-crm.git"
+        }
+    ]
+}

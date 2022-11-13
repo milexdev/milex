@@ -1,0 +1,9 @@
+{
+    "subtree-splits": [
+        {
+            "name": "theme-fresh-left",
+            "directory": "themes/fresh-left",
+            "target": "git@github.com:milex/theme-fresh-left.git"
+        }
+    ]
+}

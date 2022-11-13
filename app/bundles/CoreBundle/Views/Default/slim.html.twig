@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    {% include('MilexCoreBundle:Default:head.html.twig') %}
+    <body>
+        {{ outputScripts('bodyOpen') }}
+        <section id="app-content" class="container content-only">
+            {{ include('MilexCoreBundle:Notification:flashes.html.twig', {
+                alertType: 'standard'
+            }) }}
+            {{ include('MilexCoreBundle:Default:output.html.twig') }}
+        </section>
+        {{ include('MilexCoreBundle:Helper:modal.html.twig', {
+            id: 'MilexSharedModal',
+            footerButtons: true
+        }) }}
+        {{ outputScripts('bodyClose') }}
+        <script>
+            Milex.onPageLoad('body');
+        </script>
+    </body>
+</html>

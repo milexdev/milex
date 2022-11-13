@@ -1,0 +1,9 @@
+{
+    "subtree-splits": [
+        {
+            "name": "MilexFullContactBundle",
+            "directory": "plugins/MilexFullContactBundle",
+            "target": "git@github.com:milex/plugin-fullcontact.git"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "milex/theme-sunday",
+  "description": "Milex Sunday Theme",
+  "type": "milex-theme",
+  "keywords": ["milex","theme"],
+  "extra": {
+    "install-directory-name": "sunday"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4.0 <8.1",
+    "milex/core-lib": "^4.0"
+  }
+}

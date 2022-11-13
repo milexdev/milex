@@ -1,0 +1,15 @@
+{
+    "allowlist": [
+        {
+            "package": "koco\/milex-recaptcha-bundle",
+            "display_name": "KocoCaptcha",
+            "minimum_milex_version": "4.1.0",
+            "maximum_milex_version": null
+        },
+        {
+            "package": "maatoo\/milex-referrals-bundle",
+            "minimum_milex_version": "4.1.0",
+            "maximum_milex_version": null
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+<?php
+
+return [
+    'name'        => 'Email Marketing',
+    'description' => 'Enables integration with Milex supported email marketing services.',
+    'version'     => '1.0',
+    'author'      => 'Milex',
+
+    'services' => [
+        'forms' => [
+            'milex.form.type.emailmarketing.mailchimp' => [
+                'class'     => 'MilexPlugin\MilexEmailMarketingBundle\Form\Type\MailchimpType',
+                'arguments' => ['milex.helper.integration', 'milex.plugin.model.plugin', 'session', 'milex.helper.core_parameters'],
+            ],
+            'milex.form.type.emailmarketing.constantcontact' => [
+                'class'     => 'MilexPlugin\MilexEmailMarketingBundle\Form\Type\ConstantContactType',
+                'arguments' => ['milex.helper.integration', 'milex.plugin.model.plugin', 'session', 'milex.helper.core_parameters'],
+            ],
+            'milex.form.type.emailmarketing.icontact' => [
+                'class'     => 'MilexPlugin\MilexEmailMarketingBundle\Form\Type\IcontactType',
+                'arguments' => ['milex.helper.integration', 'milex.plugin.model.plugin', 'session', 'milex.helper.core_parameters'],
+            ],
+        ],
+        'integrations' => [
+            'milex.integration.constantcontact' => [
+                'class'     => \MilexPlugin\MilexEmailMarketingBundle\Integration\ConstantContactIntegration::class,
+                'arguments' => [
+                    'event_dispatcher',
+                    'milex.helper.cache_storage',
+                    'doctrine.orm.entity_manager',
+                    'session',
+                    'request_stack',
+                    'router',
+                    'translator',
+                    'logger',
+                    'milex.helper.encryption',
+                    'milex.lead.model.lead',
+                    'milex.lead.model.company',
+                    'milex.helper.paths',
+                    'milex.core.model.notification',
+                    'milex.lead.model.field',
+                    'milex.plugin.model.integration_entity',
+                    'milex.lead.model.dnc',
+                ],
+            ],
+            'milex.integration.icontact' => [
+                'class'     => \MilexPlugin\MilexEmailMarketingBundle\Integration\IcontactIntegration::class,
+                'arguments' => [
+                    'event_dispatcher',
+                    'milex.helper.cache_storage',
+                    'doctrine.orm.entity_manager',
+                    'session',
+                    'request_stack',
+                    'router',
+                    'translator',
+                    'logger',
+                    'milex.helper.encryption',
+                    'milex.lead.model.lead',
+                    'milex.lead.model.company',
+                    'milex.helper.paths',
+                    'milex.core.model.notification',
+                    'milex.lead.model.field',
+                    'milex.plugin.model.integration_entity',
+                    'milex.lead.model.dnc',
+                ],
+            ],
+            'milex.integration.mailchimp' => [
+                'class'     => \MilexPlugin\MilexEmailMarketingBundle\Integration\MailchimpIntegration::class,
+                'arguments' => [
+                    'event_dispatcher',
+                    'milex.helper.cache_storage',
+                    'doctrine.orm.entity_manager',
+                    'session',
+                    'request_stack',
+                    'router',
+                    'translator',
+                    'logger',
+                    'milex.helper.encryption',
+                    'milex.lead.model.lead',
+                    'milex.lead.model.company',
+                    'milex.helper.paths',
+                    'milex.core.model.notification',
+                    'milex.lead.model.field',
+                    'milex.plugin.model.integration_entity',
+                    'milex.lead.model.dnc',
+                ],
+            ],
+        ],
+    ],
+];

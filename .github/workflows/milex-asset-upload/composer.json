@@ -1,0 +1,8 @@
+{
+    "name": "milex/upload-release-asset",
+    "description": "Updates the release asset (x.x.x.zip) to the m.milex.org instance",
+    "type": "project",
+    "require": {
+        "milex/api-library": "^2.16"
+    }
+}

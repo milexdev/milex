@@ -1,0 +1,18 @@
+{
+    "name": "milex/plugin-zapier",
+    "description": "Zapier Plugin",
+    "type": "milex-plugin",
+    "keywords": [
+        "milex",
+        "plugin",
+        "integration"
+    ],
+    "extra": {
+        "install-directory-name": "MilexZapierBundle"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0 <8.1",
+        "milex/core-lib": "^4.0"
+    }
+}

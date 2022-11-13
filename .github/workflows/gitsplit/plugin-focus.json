@@ -1,0 +1,9 @@
+{
+    "subtree-splits": [
+        {
+            "name": "MilexFocusBundle",
+            "directory": "plugins/MilexFocusBundle",
+            "target": "git@github.com:milex/plugin-focus.git"
+        }
+    ]
+}

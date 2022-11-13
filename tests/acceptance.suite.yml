@@ -1,0 +1,7 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: http://milex.loc
+            browser: chrome
+        - \Helper\Acceptance

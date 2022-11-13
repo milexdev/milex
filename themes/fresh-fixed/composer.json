@@ -1,0 +1,14 @@
+{
+  "name": "milex/theme-fresh-fixed",
+  "description": "Milex Fresh Fixed Theme",
+  "type": "milex-theme",
+  "keywords": ["milex","theme"],
+  "extra": {
+    "install-directory-name": "fresh-fixed"
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4.0 <8.1",
+    "milex/core-lib": "^4.0"
+  }
+}
