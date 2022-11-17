@@ -1,5 +1,5 @@
 {
-  "name": "milex/core-lib",
+  "name": "milexdev/core-lib",
   "license": "GPL-3.0",
   "type": "milex-core",
   "description": "Milex Open Source Distribution",
@@ -19,7 +19,7 @@
     "php": ">=7.4.0 <8.1",
     "ext-zlib": "*",
     "ext-zip": "*",
-    "ext-imap": "*",
+
     "symfony/console": "~4.4.0",
     "symfony/debug": "~4.4.0",
     "symfony/form": "~4.4.0",
@@ -112,7 +112,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "https://github.com/milex/FOSOAuthServerBundle.git"
+      "url": "https://github.com/milexdev/FOSOAuthServerBundle.git"
     }
   ],
   "minimum-stability": "dev",

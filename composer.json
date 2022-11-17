@@ -17,19 +17,19 @@
         "forum": "https://forum.milex.org/c/support",
         "docs": "https://docs.milex.org",
         "chat": "https://milex.org/slack",
-        "issues": "https://github.com/milex/milex/issues",
-        "source": "https://github.com/milex/milex"
+        "issues": "https://github.com/milexdev/issues",
+        "source": "https://github.com/milexdev"
     },
   "require": {
     "composer/installers": "^1.11",
-    "milex/core-lib": "^4.0"
+    "milexdev/core-lib": "^1.0.1"
   },
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^2.19.2",
     "http-interop/http-factory-guzzle": "^1.0",
     "liip/functional-test-bundle": "^4.2",
     "liip/test-fixtures-bundle": "^1.6",
-    "milex/transifex": "^4.0",
+    "milexdev/transifex": "^1.0.0",
     "php-http/mock-client": "^1.4",
     "phpstan/phpstan": "^1.6",
     "phpunit/phpunit": "^9.5",
@@ -87,13 +87,9 @@
       "url": "app",
       "options": {
         "versions": {
-            "milex/core-lib": "4.3.x-dev"
+            "milexdev/core-lib": "1.0.1"
         }
       }
-    },
-    {
-      "type": "git",
-      "url": "https://github.com/milex/FOSOAuthServerBundle.git"
     }
   ],
   "conflict": {

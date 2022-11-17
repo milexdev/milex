@@ -1,9 +1,0 @@
-{
-    "subtree-splits": [
-        {
-            "name": "theme-skyline",
-            "directory": "themes/skyline",
-            "target": "git@github.com:milex/theme-skyline.git"
-        }
-    ]
-}

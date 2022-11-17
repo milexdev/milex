@@ -1,9 +1,0 @@
-{
-    "subtree-splits": [
-        {
-            "name": "MilexCitrixBundle",
-            "directory": "plugins/MilexCitrixBundle",
-            "target": "git@github.com:milex/plugin-citrix.git"
-        }
-    ]
-}

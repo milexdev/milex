@@ -1,9 +1,0 @@
-{
-    "subtree-splits": [
-        {
-            "name": "MilexCloudStorageBundle",
-            "directory": "plugins/MilexCloudStorageBundle",
-            "target": "git@github.com:milex/plugin-cloudstorage.git"
-        }
-    ]
-}

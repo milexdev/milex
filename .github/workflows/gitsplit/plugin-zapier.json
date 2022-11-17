@@ -1,9 +1,0 @@
-{
-    "subtree-splits": [
-        {
-            "name": "MilexZapierBundle",
-            "directory": "plugins/MilexZapierBundle",
-            "target": "git@github.com:milex/plugin-zapier.git"
-        }
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "subtree-splits": [
-        {
-            "name": "theme-cards",
-            "directory": "themes/cards",
-            "target": "git@github.com:milex/theme-cards.git"
-        }
-    ]
-}

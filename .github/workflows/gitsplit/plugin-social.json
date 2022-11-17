@@ -1,9 +1,0 @@
-{
-    "subtree-splits": [
-        {
-            "name": "MilexSocialBundle",
-            "directory": "plugins/MilexSocialBundle",
-            "target": "git@github.com:milex/plugin-social.git"
-        }
-    ]
-}

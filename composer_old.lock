@@ -5610,8 +5610,8 @@
             "time": "2021-09-20T12:34:12+00:00"
         },
         {
-            "name": "milex/core-lib",
-            "version": "4.3.x-dev",
+            "name": "milexdev/core-lib",
+            "version": "4.4.4",
             "dist": {
                 "type": "path",
                 "url": "app",
@@ -14772,14 +14772,14 @@
                 }
             ],
             "description": "The Transifex API Package is a wrapper of the Transifex API available for PHP developers",
-            "homepage": "https://github.com/milex/Transifex-API",
+            "homepage": "https://github.com/milex/transifex",
             "keywords": [
                 "php",
                 "transifex"
             ],
             "support": {
-                "issues": "https://github.com/milex/Transifex-API/issues",
-                "source": "https://github.com/milex/Transifex-API/tree/4.1.0"
+                "issues": "https://github.com/milex/transifex/issues",
+                "source": "https://github.com/milex/transifex/tree/1.0.0"
             },
             "time": "2021-04-24T08:21:49+00:00"
         },

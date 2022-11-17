@@ -1,9 +1,0 @@
-{
-    "subtree-splits": [
-        {
-            "name": "MilexTagManagerBundle",
-            "directory": "plugins/MilexTagManagerBundle",
-            "target": "git@github.com:milex/plugin-tagmanager.git"
-        }
-    ]
-}

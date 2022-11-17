@@ -9,6 +9,6 @@
   "minimum-stability": "dev",
   "require": {
     "php": ">=7.4.0 <8.1",
-    "milex/core-lib": "^4.0"
+    "milexdev/core-lib": "^1.0"
   }
 }

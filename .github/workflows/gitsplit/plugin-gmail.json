@@ -1,9 +1,0 @@
-{
-    "subtree-splits": [
-        {
-            "name": "MilexGmailBundle",
-            "directory": "plugins/MilexGmailBundle",
-            "target": "git@github.com:milex/plugin-gmail.git"
-        }
-    ]
-}
