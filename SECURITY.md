@@ -26,13 +26,7 @@ For example, Milex 3.1 will continue receiving security advisories until the rel
 
 | Branch | Beta Release | Initial Release | Active Support Until | Security Support Until *
 |--|--|--|--|--|
-|2.16|30 Jan 2020|13 Feb 2020|15 Jun 2020|15 Dec 2020
-|3.x|27 Jan 2020|15 Jun 2020|15 Jun 2021|15 Dec 2021
-|3.1|17 Aug 2020|24 Aug 2020|23 Nov 2020|30 Nov 2020
-|3.2|23 Nov 2020|30 Nov 2020|16 Feb 2021|22 Feb 2021
-|3.3|16 Feb 2021|22 Feb 2021|17 May 2021|24 May 2021
-|4.x|16 Feb 2021|30 Aug 2021|26 Sept 2022|27 Feb 2023
-|4.0|17 May 2021|30 Aug 2021|29 Nov 2021|29 Nov 2021
+|1.0|17 May 2021|30 Aug 2021|29 Nov 2021|29 Nov 2021
 
 \* = Security Support for 2.16 will only be provided for Milex itself, not for core dependencies that are EOL like Symfony 2.8.
 

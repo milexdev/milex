@@ -1,5 +1,5 @@
 {
-    "name": "milex/plugin-clearbit",
+    "name": "milexdev/plugin-clearbit",
     "description": "Clearbit Plugin",
     "type": "milex-plugin",
     "keywords": [

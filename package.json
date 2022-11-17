@@ -1,6 +1,6 @@
 {
   "name": "milex",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Milex Open Source Distribution",
   "devDependencies": {
     "grunt": "^1.5.3",

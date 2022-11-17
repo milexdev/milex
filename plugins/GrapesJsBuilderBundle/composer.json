@@ -1,5 +1,5 @@
 {
-  "name": "milex/grapes-js-builder-bundle",
+  "name": "milexdev/grapes-js-builder-bundle",
   "description": "GrapesJS Builder with MJML support for Milex",
   "type": "milex-plugin",
   "keywords": [

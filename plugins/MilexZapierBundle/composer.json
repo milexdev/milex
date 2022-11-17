@@ -1,5 +1,5 @@
 {
-    "name": "milex/plugin-zapier",
+    "name": "milexdev/plugin-zapier",
     "description": "Zapier Plugin",
     "type": "milex-plugin",
     "keywords": [

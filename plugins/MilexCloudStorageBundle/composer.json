@@ -1,5 +1,5 @@
 {
-    "name": "milex/plugin-cloudstorage",
+    "name": "milexdev/plugin-cloudstorage",
     "description": "Cloudstorage Plugin",
     "type": "milex-plugin",
     "keywords": [
